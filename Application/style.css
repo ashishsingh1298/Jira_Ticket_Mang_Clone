@@ -1,0 +1,117 @@
+*{
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.tool-box-cont{
+    height: 5rem;
+    background-color: #4b4b4b;
+    align-items: center;
+    display: flex;
+}
+.tool-box-cont > *{
+    margin-left: 4rem;
+}
+.tool-box-color{
+    height: 3.5rem;
+    width: 16rem;
+    display: flex;
+    background-color: #3d3d3d;
+    justify-content: space-around;
+    align-items: center;
+}
+.color{
+    height: 1.5rem;
+    width: 2.5rem;
+    border-radius: 2px;
+}
+.light-pink{
+    background-color: lightpink;
+}
+.light-green{
+    background-color: lightgreen;
+}
+.light-blue{
+    background-color: lightblue;
+}
+.black{
+    background-color: black;
+}
+.tool-box-add-remove{
+    height: 3.5rem;
+    width: 8rem;
+    display: flex;
+    background-color: #487eb0;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.tool-box-add-remove >*{
+    width: 50%;
+    color: #f5f6fa;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-cont{
+    height: 50vh;
+    width: 40vw;
+    position: absolute;
+    top: calc((100vh - 50vh) / 2);
+    left: calc((100vw - 40vw) / 2);
+    background-color: aquamarine;
+    display: none;
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    background-color: #c8d6e5;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 2rem;
+    font-size: 1rem;
+
+}
+.modal-box-color{
+    height: 100%;
+    width: 25%;
+    background-color:#535c68;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-color{
+    height: 2.5rem;
+    width: 4rem;
+}
+.border{
+    border: 5px solid #c7ecee;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
+.ticket-cont{
+    height: 10rem;
+    width: 14rem;
+}
+.ticket-color{
+    height: 1rem;
+    background-color: green;
+}
+.ticket-id{
+    height: 2rem;
+    background-color: antiquewhite;
+}
+.ticket-text{
+    height: calc( 100% - 3rem);
+    padding: 0.4rem;
+    background-color: antiquewhite;
+}
